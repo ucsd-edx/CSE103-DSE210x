@@ -1,4 +1,3 @@
-#### Repository for CSE103 TAs
-[Wiki](https://zhenzhai.github.io/TA_repo/)
+## Repository for CSE103/DSE210x
 
-1. [problem_database](https://github.com/zhenzhai/TA_repo/tree/master/problem_database) has markdown files, XML files, and also the tranlator scripts of all problems used in CSE103 homework.
+* Folder ```problem_set``` has homework problems written in markdown. Also, the translator script that can translate .imd files to XML files which are used to create problems in edX studio.
