@@ -52,6 +52,9 @@
 
 	5. After you finish the problem, double check to make sure the solutions you defined in your python code match the order of the questions in the problem.
 
+	6. Save your file and assign a problem to the file in the ```problems_mapping.json```
+
+#### Different types of problems
  	* Check box
 
 		[ ] and [x] stands for the check box. [x] represent the box that need to be checked.
@@ -92,6 +95,3 @@
 				Fourth question. Please select one answer from the drop down list.
 
 				[_choice]
-
-
- 6. Save your file and assign a problem to the file in the ```problems_mapping.json```
