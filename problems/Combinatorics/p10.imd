@@ -1,5 +1,6 @@
 ```python
-# random variables (no need to import random library)
+# random variables
+import random
 a = random.randrange(10,14,1)
 n = random.randrange(2,5,1)
 

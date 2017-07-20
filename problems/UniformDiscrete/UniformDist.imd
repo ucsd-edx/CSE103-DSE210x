@@ -1,5 +1,6 @@
 ```python
-# random variables (no need to import random library)
+# random variables
+import random
 r1 = random.randrange(10,20,1)
 r2 = random.randrange(5,r1,1)
 
@@ -9,10 +10,6 @@ solution1 = "1/{0}".format(r1)
 solution2 = "({1}-1)/{0}".format(r1,r2)
 solution3 = "({0}-{1})/{0}".format(r1,r2)
 solution4 = "1"
-
-# Group all solutions into a list
-solutions = [solution1, solution2, solution3, solution4]
-
 ```
 Suppose we have a stack of \$r1 cards, numbered 1,...,\$r1. Suppose we pick a card uniformly at random (i.e. all cards have the same probability of being picked).
 
@@ -35,3 +32,12 @@ Suppose we have a stack of \$r1 cards, numbered 1,...,\$r1. Suppose we pick a ca
 * What is the sum of the previous three probabilities?
 
 [_]
+
+```test
+r1 = 10
+r2 = 8
+check1 = [("1/10", True), ("1", False), ("10", False), ("0.1", True)]
+check2 = [("(8-1)/10", True), ("7/10", True), ("0.7", True)]
+check3 = [("(10-8)/10", True), ("2/10", True), ("1/5", True), ("0.2", True)]
+check4 = [("1", True), ("0", False)]
+```

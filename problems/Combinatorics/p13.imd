@@ -1,5 +1,6 @@
 ```python
-# random variables (no need to import random library)
+# random variables
+import random
 n = random.randrange(3,6,1)
 
 # Solutions with variables converted to string
@@ -28,3 +29,10 @@ multiple times.
 * How many strings of length \$n consisting of lower case English letters, **and including at least one "x"**, are there?
 
 [_]
+
+```test
+n=3
+check1 = [("26^3", True), ("26", False)]
+check2 = [("25^3", True), ("25", False)]
+check3 = [("26^3-25^3", True), ("26^3", False), ("25^3", False)]
+```

@@ -1,7 +1,4 @@
 ```python
-# random variables (no need to import random library)
-
-
 # Solutions with variables converted to string
 # Make sure you name the solution with part id at the end. e.g. 'solution1' will be solution for part 1.
 solution1 = "4"
@@ -21,3 +18,8 @@ solutions = [solution1, solution2]
 * What is the probability a uniformly randomly chosen card from a standard deck of 52 cards is a king?
 
 [_]
+
+```test
+check1 = [("4", True), ("3", False)]
+check2 = [("1/13", True), ("13", False)]
+```

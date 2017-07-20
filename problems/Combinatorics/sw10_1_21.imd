@@ -1,5 +1,6 @@
 ```python
-# random variables (no need to import random library)
+# random variables
+import random
 a = random.randrange(2,3,1)
 b = random.randrange(2,3,1)
 c = 7-a-b
@@ -23,3 +24,10 @@ solutions = [solution1, solution2]
 How many different standard plates are possible in this system? (Assume repetition of letters and numbers is allowed.)
 
 [_]
+
+```test
+a = 2
+b = 3
+check1 = [("10*26", True), ("10", False), ("26", False), ("260", True)]
+check2 = [("10^2*26^3*10^(7-2-3)", True), ("10^2*26^3*10^2", True), ("10^4*26^3", True), ("10^2", False)]
+```
