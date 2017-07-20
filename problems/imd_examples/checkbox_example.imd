@@ -1,5 +1,6 @@
 ```python
-# random variables (no need to import random library)
+# random variables
+import random
 a = random.randrange(3,6,1)
 b = random.randrange(1,6,2)
 c = "string"
