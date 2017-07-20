@@ -1,4 +1,5 @@
 ```python
+import random
 a = random.randrange(4,6,1)
 
 if (a == 4):

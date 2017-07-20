@@ -8,9 +8,6 @@ n = random.randrange(2,5,1)
 solution1 = "3*2"
 solution2 = "{0}*2*{1}".format(a,n)
 
-# Group all solutions into a list
-solutions = [solution1, solution2]
-
 ```
 
 * For lunch, you eat a sandwich and a piece of fruit. The sandwich can be either veggie, chicken, or beef; and the fruit can be  an orange or an apple.
@@ -24,3 +21,10 @@ How many different lunch combinations do you have?
 How many different types of this shirt are made?
 
 [_]
+
+```test
+a = 12
+n = 3
+check1 = [("3*2", True), ("6", True), ("3", False), ("3*1", False)]
+check2 = [("12*2*3", True), ("24*3", True), ("12*6", True), ("72", True), ("12*2", False)]
+```
